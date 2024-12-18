@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$.QylNeYgocj9DylpdvlXvuu3tF.sq6Rq8Z1F956ZCebqEH4ySZbgK",
+      "id": 1
+    },
+    {
+      "email": "karmenellena@gmail.com",
+      "password": "$2a$10$Tq9GyKxnaBr6oiX2E6W3auUDbpusIAOReQS7jGQhK/blswW7U186S",
+      "id": 2
+    },
+    {
+      "email": "karmenkarmen1717@gmail.com",
+      "password": "$2a$10$NbkrIgMq1TY1kxC2rNfmeOTeu527kP8R56m9o9xl755S.MnYHOQpm",
+      "id": 3
+    },
+    {
+      "email": "karmenkarmen@gmail.com",
+      "password": "$2a$10$B3/XgCkIQjCJtFx0pmW17u74aQDAo1NvR.ltcdGiXYCwfKiy6WSyK",
+      "id": 4
+    }
+  ],
+  "posts": [
+    {
+      "id": 8,
+      "text": "testo post 1",
+      "userId": 1
+    },
+    {
+      "id": 9,
+      "text": "testo post 2",
+      "userId": 1
+    }
+  ]
+}
