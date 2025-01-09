@@ -6,31 +6,31 @@
       "id": 1
     },
     {
-      "email": "karmenellena@gmail.com",
-      "password": "$2a$10$Tq9GyKxnaBr6oiX2E6W3auUDbpusIAOReQS7jGQhK/blswW7U186S",
+      "email": "elena@gmail.com",
+      "password": "$2a$10$yLOM7WwFHI2Y.i0Xbh0NjOhOW9AKbbMvkJllgaoda/f9hModmTqle",
       "id": 2
     },
     {
-      "email": "karmenkarmen1717@gmail.com",
-      "password": "$2a$10$NbkrIgMq1TY1kxC2rNfmeOTeu527kP8R56m9o9xl755S.MnYHOQpm",
+      "email": "dada@gmail.com",
+      "password": "$2a$10$tpgdNc2NQN9Uqd3xADsDju0ky.sklk7nU0ia0R.jnp1qt0UAAi.6m",
       "id": 3
-    },
-    {
-      "email": "karmenkarmen@gmail.com",
-      "password": "$2a$10$B3/XgCkIQjCJtFx0pmW17u74aQDAo1NvR.ltcdGiXYCwfKiy6WSyK",
-      "id": 4
     }
   ],
   "posts": [
     {
       "id": 8,
-      "text": "testo post 1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur.",
       "userId": 1
     },
     {
       "id": 9,
-      "text": "testo post 2",
-      "userId": 1
+      "text": "Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "userId": 2
+    },
+    {
+      "id": 10,
+      "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+      "userId": 3
     }
   ]
 }

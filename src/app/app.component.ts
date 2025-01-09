@@ -1,21 +1,25 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
+
 })
 export class AppComponent {
   title = 'stopandcode2-con-json-server';
 
+  constructor(private router: Router) {}
+
   isLogged(): boolean {
-    return localStorage.getItem('token_labforweb') ? true : false
+    return localStorage.getItem('token') ? true : false
   }
 
   logout(): void {
-    localStorage.removeItem('token_labforweb');
+    localStorage.removeItem('token');
+    this.router.navigate(['/login']);
   }
 }
