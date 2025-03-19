@@ -1,4 +1,7 @@
-# Stopandcode2ConJsonServer
+
+
+JSON server: Un server REST fittizio che fornisce un backend simulato basato su un file JSON. Utile per lo sviluppo frontend senza la necessità di un backend completo.
+
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
 
