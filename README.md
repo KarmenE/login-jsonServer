@@ -1,6 +1,18 @@
+Questo progetto Angular implementa un semplice sistema di autenticazione (login) per un'applicazione web. Utilizza un backend simulato fornito da JSON Server per la gestione degli utenti e la verifica delle credenziali.
 
+Tecnologie Utilizzate:
+* Angular: Framework frontend per la creazione di applicazioni web dinamiche.
+* TypeScript: Linguaggio di programmazione tipizzato che si basa su JavaScript.
+* JSON Server: Un server REST fittizio che fornisce un backend simulato basato su un file JSON. Utile per lo sviluppo frontend senza la necessità di un backend completo.
+* Angular Material: Libreria di componenti UI Angular che implementa il Material Design di Google, per un'interfaccia utente moderna e coerente (potrebbe essere presente per l'interfaccia del login).
+* RxJS: Libreria per la programmazione reattiva con Angular, utilizzata per la gestione dei flussi di dati asincroni e delle richieste al server.
+* Bootstrap: per lo stile.
 
-JSON server: Un server REST fittizio che fornisce un backend simulato basato su un file JSON. Utile per lo sviluppo frontend senza la necessità di un backend completo.
+Funzionalità Principali:
+* Form di Login: Presenta un modulo per l'inserimento di nome utente e password.
+* Autenticazione: Invia le credenziali al backend simulato (JSON Server) per la verifica.
+* Gestione degli Errori: Visualizza messaggi di errore in caso di credenziali errate o problemi di comunicazione con il server.
+
 
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
